@@ -1,0 +1,12 @@
+# Keep secrets and bulk out of every image built from this folder.
+.git
+.github
+.env
+.env.*
+!.env.example
+__pycache__
+*.pyc
+.venv
+venv
+notebooks
+*.md
