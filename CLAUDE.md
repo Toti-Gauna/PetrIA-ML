@@ -92,6 +92,7 @@ cumulative oil production. Baseline to beat: average of neighbors.
   already complete at the target well's start date.
 - Spatial block cross-validation. Metrics: P50 error and the actual coverage
   of the P10-P90 interval.
-- Predictions on an H3 hexagonal grid over undrilled areas, written to `geo`.
+- Predictions on an H3 hexagonal grid over undrilled areas, written to `ml`
+  (reads `geo` through a read-only role, never writes there; ADR-0002).
   Model registry with version and metrics.
 - Version 1.0 (Nov 23 to 25 are its days).
